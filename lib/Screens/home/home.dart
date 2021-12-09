@@ -1,5 +1,6 @@
 import 'package:fauna/Model/cart.dart';
 import 'package:fauna/Provider/counter_provider.dart';
+import 'package:fauna/Screens/categories/giftDemo.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../categories/gifts.dart';
@@ -71,7 +72,10 @@ class _HomeState extends State<Home> {
             animationType: BadgeAnimationType.slide,
             badgeContent: Text(
               '${demoCarts.length}',
-              style: TextStyle(color: Colors.white,fontSize:20,),
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+              ),
             ),
             child: IconButton(
                 icon: Icon(Icons.shopping_cart),
