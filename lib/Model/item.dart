@@ -80,4 +80,14 @@ List<Item> items = [
       image:
           "https://www.freepnglogos.com/uploads/flower-bouquet-png/flower-bouquet-birthday-flowers-18.png",
       color: const Color(0xFFC2B039)),
+  Item(
+      id: 7,
+      title: "Perfumes",
+      price: 50,
+      size: 12,
+      isFavorite: false,
+      description: "Gift",
+      image:
+          "https://www.freepnglogos.com/uploads/flower-bouquet-png/flower-bouquet-birthday-flowers-18.png",
+      color: const Color(0xFFC2B039)),
 ];

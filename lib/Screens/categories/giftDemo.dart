@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import './../../Model/item.dart';
 
 final List<String> imgList = [
   "https://cdn.pixabay.com/photo/2016/03/26/22/22/happy-1281590__340.jpg",
